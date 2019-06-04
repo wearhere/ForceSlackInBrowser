@@ -3,7 +3,11 @@
   "name": "Force Slack in Browser",
   "description": "Force Slack to open archive links in the browser not the desktop app.",
   "version": "0.0.1",
+  "homepage_url": "https://github.com/wearhere/ForceSlackInBrowser",
   "author": "Jeffrey Wear",
+  "icons": {
+    "128": "window-restore-solid.png"
+  },
   "content_scripts": [{
     "matches": ["https://*.slack.com/archives/*"],
     "js": [
