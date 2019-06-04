@@ -18,21 +18,19 @@ it in a [single line of JavaScript](src/app.js).
 Now, any time you visit an archive link, you'll be automatically redirected to the message in your
 browser.
 
-## Installation
+## Install
 
-1. Go to <chrome://extensions>
-2. Check the "Developer mode" option in the upper right corner
-3. Click *Load Unpacked Extension* and select this folder
-
-### Why Isn't This in the Chrome Web Store?
-
-It could be, I'm just lazy.
+https://chrome.google.com/webstore/detail/force-slack-in-browser/gfggogadjpapemlonlgpbofdeefkjakf
 
 ## Contributing
 
 PRs and bug reports are welcome!
 
 ### Local Development
+
+1. Go to <chrome://extensions>
+2. Check the "Developer mode" option in the upper right corner
+3. Click *Load Unpacked Extension* and select this folder
 
 If you make changes `src/app.js`, you need to reload the extension which you can do by Cmd-R
 reloading <chrome://extensions>. Then you need to reload the archive link you're testing.
