@@ -1,0 +1,28 @@
+{
+  "folders": [{
+    "path": ".",
+    "folder_exclude_patterns": [
+      "node_modules"
+    ],
+    "file_exclude_patterns": [
+      // Generated source maps.
+      "*.map",
+
+      // Compiled files.
+      "src/background.js",
+      "src/content.js",
+      "src/content/templates.js",
+
+      // Don't search minified javascript files.
+      "*.min.js"
+    ]
+  }],
+  "settings": {
+    "tab_size": 2,
+    "ensure_newline_at_eof_on_save": true,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "detect_indentation": false,
+    "rulers": [100]
+  }
+}

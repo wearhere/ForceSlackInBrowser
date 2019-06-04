@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Force Slack in Browser",
+  "description": "Force Slack to open archive links in the browser not the desktop app.",
+  "version": "0.0.1",
+  "author": "Jeffrey Wear",
+  "content_scripts": [{
+    "matches": ["https://*.slack.com/archives/*"],
+    "js": [
+      "src/app.js"
+    ],
+    "run_at": "document_start"
+  }]
+}
