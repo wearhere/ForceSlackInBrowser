@@ -22,6 +22,10 @@ browser.
 
 https://chrome.google.com/webstore/detail/force-slack-in-browser/gfggogadjpapemlonlgpbofdeefkjakf
 
+If, after you install, your links are correctly opening slack in the browser, but _also_ opening the Slack app,
+you need to remove the association between that URL type and the application which you probably previously
+clicked "ok" for. To do this, for slack.com, clear your cookies and reset site permissions.
+
 ## Contributing
 
 PRs and bug reports are welcome!
